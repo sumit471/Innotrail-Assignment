@@ -1,0 +1,40 @@
+body{
+    min-height: 100vh;
+    background: #304B5F;
+    padding: 20px;
+  }
+
+.container {
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: repeat(3,3fr);
+    gap: 30px;
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    padding:20px;
+    background: #f2f5f8;
+  }
+  
+  .box {
+    display: grid;
+    border: 3px solid #666;
+    height: 50px;
+    padding: 10px;
+    cursor: move;
+    border-radius: 20px;
+    align-items: center;
+    justify-items: center;
+  }
+
+  #btn{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(221, 207, 235);
+    margin-top: 20px;
+    margin-left:44%;
+  }
+
+ 
+
